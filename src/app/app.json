@@ -1,22 +1,7 @@
 {
   "name": "Doctor Dashboard",
-  "description": "UI extension with nurse search and serverless function",
-  "scopes": [
-    "crm.objects.contacts.read",
-    "crm.objects.contacts.write",
-    "crm.schemas.contacts.read"
-  ],
-  "public": false,
-  "functions": {
-    "file": "app.functions/serverless.json"
-  },
-  "extensions": {
-    "crm": {
-      "cards": [
-        {
-          "file": "extensions/nurseSearchCard.json"
-        }
-      ]
-    }
-  }
+  "description": "This app runs a serverless function to fetch a quote using the Zen Quotes API.",
+  "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write"],
+  "uid": "doctor-dashboard",
+  "public": false
 }
