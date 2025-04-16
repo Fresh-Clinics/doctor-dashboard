@@ -1,12 +1,20 @@
 {
   "appFunctions": {
-     "quote-function": {
+    "quote-function": {
       "file": "function.js",
       "secrets": [],
       "endpoint": {
         "path": "fetch-quote",
         "method": ["GET"]
-       }
+      }
+    },
+    "get-nurse-profile": {
+      "file": "getNurseProfile.js",
+      "secrets": [],
+      "endpoint": {
+        "path": "get-nurse-profile",
+        "method": ["GET"]
+      }
     }
   }
 }
