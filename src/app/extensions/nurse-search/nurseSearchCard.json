@@ -1,0 +1,13 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Nurse Search",
+    "location": "crm.record.tab",
+    "module": "nurse-search",
+    "objectTypes": [
+      {
+        "name": "contact"
+      }
+    ]
+  }
+}
