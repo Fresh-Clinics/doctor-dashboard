@@ -4,6 +4,10 @@
     "title": "Nurse Search",
     "location": "crm.record.tab",
     "module": "nurse-search",
-    "objectTypes": ["contact"]
+    "objectTypes": [
+      {
+        "name": "contact"
+      }
+    ]
   }
 }
