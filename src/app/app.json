@@ -1,4 +1,15 @@
 {
+  "name": "Doctor Dashboard",
+  "description": "UI extension with nurse search and serverless function",
+  "scopes": [
+    "crm.objects.contacts.read",
+    "crm.objects.contacts.write",
+    "crm.schemas.contacts.read"
+  ],
+  "public": false,
+  "functions": {
+    "file": "app.functions/serverless.json"
+  },
   "extensions": {
     "crm": {
       "cards": [
@@ -7,8 +18,5 @@
         }
       ]
     }
-  },
-  "functions": {
-    "file": "app.functions/serverless.json"
   }
 }
