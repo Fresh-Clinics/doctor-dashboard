@@ -1,0 +1,8 @@
+{
+  "appFunctions": {
+    "name-search": {
+      "file": "name-search.js",
+      "secrets": []
+    }
+  }
+}

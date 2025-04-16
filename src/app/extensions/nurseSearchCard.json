@@ -1,0 +1,11 @@
+{
+  "target": "crm.record.tab",
+  "title": "Nurse Search",
+  "data": {
+    "fetch": "name-search"
+  },
+  "template": {
+    "type": "html",
+    "html": "<h3>Hello from Nurse Search card!</h3>"
+  }
+}

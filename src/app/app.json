@@ -1,0 +1,14 @@
+{
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/nurseSearchCard.json"
+        }
+      ]
+    }
+  },
+  "functions": {
+    "file": "app.functions/serverless.json"
+  }
+}

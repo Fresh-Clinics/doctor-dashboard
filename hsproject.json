@@ -1,0 +1,6 @@
+{
+  "name": "doctor-dashboard",
+  "type": "cms",
+  "srcDir": "src",
+  "platformVersion": "2025.1"
+}
