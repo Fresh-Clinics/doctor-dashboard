@@ -1,8 +1,12 @@
 {
   "appFunctions": {
-    "name-search": {
-      "file": "name-search.js",
-      "secrets": []
+     "quote-function": {
+      "file": "function.js",
+      "secrets": [],
+      "endpoint": {
+        "path": "fetch-quote",
+        "method": ["GET"]
+       }
     }
   }
 }
